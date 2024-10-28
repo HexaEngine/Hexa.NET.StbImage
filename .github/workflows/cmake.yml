@@ -89,7 +89,7 @@ jobs:
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4.3.4
       with:
-        name: cimgui-${{ matrix.os }}-${{ matrix.arch }}-artifacts 
+        name: stbimage-${{ matrix.os }}-${{ matrix.arch }}-artifacts 
         path: |
           stbimage/build/*.dll
           stbimage/build/*.so
