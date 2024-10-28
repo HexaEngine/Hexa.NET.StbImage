@@ -1,0 +1,34 @@
+{
+  "Namespace": "Hexa.NET.StbImage",
+  "ApiName": "StbImage",
+  "LibName": "StbImage",
+  "Usings": [ "System.Numerics" ],
+  "ImportType": "FunctionTable",
+  "EnableExperimentalOptions": true,
+  "GenerateConstructorsForStructs": true,
+  "GenerateSizeOfStructs": false,
+  "GenerateDelegates": true,
+  "GenerateMetadata": true,
+  "DelegatesAsVoidPointer": true,
+  "BoolType": 0,
+  "KnownConstantNames": {},
+  "KnownEnumValueNames": { "Blob": "BlobRelease" },
+  "KnownEnumPrefixes": {},
+  "IgnoredParts": [ "bit" ],
+  "IgnoredFunctions": [
+
+  ],
+  "IgnoredTypes": [
+    "stbir__simdi_u32",
+    "stbi__jpeg"
+  ],
+  "IgnoredTypedefs": [
+
+  ],
+  "IgnoredEnums": [
+    ""
+  ],
+  "TypeMappings": {
+    "FILE": "FileHandle"
+  }
+}
